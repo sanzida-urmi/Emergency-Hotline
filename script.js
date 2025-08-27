@@ -82,3 +82,8 @@ document.getElementById("card-container").addEventListener("click", function (e)
 // })
 
 
+
+// clear 
+document.getElementById("clr").addEventListener("click", function () {
+    document.getElementById("history").innerHTML = ""
+})
